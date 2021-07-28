@@ -1634,7 +1634,6 @@ JpaRepository와 CrudRepository에 가보면
 #### **AOP적용 (AOP: Aspect Oriented Programming)**
 
 : 공통관심사항과 핵심관심사항을 분리하는 것!
-
-![image-20210728153341463](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153341463.png)
-timeTraceAop에 모아놓고 필요할때마다 쓴다.
+![image-20210728160437612](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210728160437612.png)
+mage/timeTraceAop에 모아놓고 필요할때마다 쓴다.
 

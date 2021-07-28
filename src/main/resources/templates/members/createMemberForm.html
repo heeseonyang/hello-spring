@@ -1,0 +1,15 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org"><body>
+<div class="container">
+    <form action="/members/new" method="post">
+        <div class="form-group">
+            <label for="name">이름</label>
+            <input type="text" id="name" name="name" placeholder="이름을 입력하세요">
+        </div>
+        <button type="submit">등록</button>
+    </form>
+</div> <!-- /container -->
+</body>
+</html>
+
+<!--뷰리졸버를 통해 얘를 선택되고 타임리프탬플릿을 통해 얘가 렌더링되어 뿌려진다.-->

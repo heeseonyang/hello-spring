@@ -13,18 +13,19 @@
 
 \-> [http://start.spring.io](http://start.spring.io)
 
-![image-20210728142534342](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728142534342.png)
+![image-20210729105523208](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729105523208.png)
+
 
 
 위의 설정대로 프로젝트를 생성함.
 
-![image-20210728142739374](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728142739374.png)
+![image-20210729105701218](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729105701218.png)
 
-![image-20210728143134699](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728143134699.png)
+![image-20210729105723682](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729105723682.png)
 
 처음 임포트 할땐 라이브러리를 수십메가를 다운받기때문에 반드시 네트워크 연결이 되어있어야 하고 로딩이 오래걸린다.
 
-![image-20210728143241870](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728143241870.png)
+![image-20210729105747733](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729105747733.png)
 
 
 
@@ -39,8 +40,7 @@ test 안에는 test코드가 들어있다.
 자바파일을 제외한 나머지 환경설정파일 같은 것들은 resources
 
 버전설정하고 라이브러리 땡겨오는 역할
-![image-20210728143322201](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728143322201.png)
-
+![image-20210729105817859](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729105817859.png)
 
 
 #2. 빌드하고 실행하기 (Window환경에서)
@@ -51,13 +51,13 @@ test 안에는 test코드가 들어있다.
 강사님 컴퓨터가 맥이다 보니 윈도우와 명령어가 다른 부분이 꽤 있다.
 
 다른 명령어를 찾아서 적용시키는게 어려웠다.
-![image-20210728143620923](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728143620923.png)
+![image-20210729105852149](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210729105852149.png)
 
-![image-20210728144015432](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144015432.png)
+![image-20210729105910996](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729105910996.png)
 
 ./gradlew build  ---> gradlew.bat build
 
-![image-20210728143731228](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728143731228.png)
+![image-20210729105940420](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729105940420.png)
 
 ls -arlth ---> dir /s
 
@@ -70,14 +70,14 @@ dir /?라고 입력하여 옵션에 대한 자세한 설명을 확인 한 후
 dir /s를 사용하니 원하는 결과값이 나왔다. )
 
 
-![image-20210728143757682](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728143757682.png)
+![image-20210729110002024](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110002024.png)
 
 18m짜리 파일이 만들어져있다고 .
 
-![image-20210728143850962](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728143850962.png)
+![image-20210729110023097](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110023097.png)
 
 
-![image-20210728143934365](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728143934365.png)
+![image-20210729110044462](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110044462.png)
 
 
 
@@ -102,17 +102,15 @@ dir /s를 사용하니 원하는 결과값이 나왔다. )
 
 : 스프링부트는 기본적으로 정적컨텐츠를 제공한다.
 
-![image-20210728144440633](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144440633.png)
+![image-20210729110113546](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110113546.png)
 
 resources -> static 폴더에 hello-static.html 파일 생성
-![image-20210728144516198](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144516198.png)
-
+![image-20210729110130774](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110130774.png)
 
 html 코드 입력후 실행.
-![image-20210728144554919](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144554919.png)
-결과창
+결과창![image-20210729110220175](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110220175.png)
 
-![image-20210728144638291](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144638291.png)
+![image-20210729110307677](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110307677.png)
 
 주소창에 localhost:8080 + 파일명 그대로 입력하면 내가 작성한 대로 글씨가 뜬다.
 
@@ -168,10 +166,9 @@ public class HelloController {
 ```
 
 
-![image-20210728144741912](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144741912.png)
-
+![image-20210729110334050](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110334050.png)
 그냥 주소창에 치면 에러가 뜬다.
-![image-20210728144814579](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144814579.png)
+![image-20210729110415603](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110415603.png)
 
 에러내용: "name"값이 없다. name값을 넣어라
 
@@ -179,14 +176,14 @@ public class HelloController {
 
 어떻게 넘기느냐?
 
-![image-20210728144831698](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144831698.png)
+![image-20210729110435025](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110435025.png)
 
 이렇게 get방식으로 주소창에 직접! ?name=~~~라고 친다.
 
 그러면 그대로 나옴.
 
 
-![image-20210728144908713](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144908713.png)
+![image-20210729110451154](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110451154.png)
 
 1.name이 spring이 됨.
 
@@ -194,7 +191,9 @@ public class HelloController {
 
 3\. hello-template으로 리턴됨.
 
-![image-20210728144952849](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728144952849.png)
+
+![image-20210729110532526](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110532526.png)
+
 템플릿파일에서 ${name}값이 spring으로 ..
 
 모델에서 값을 꺼냄! 모델안의 spring이란 네임값을 꺼냄.
@@ -217,22 +216,21 @@ public class HelloController {
 
 ## **3)API**
 
-![image-20210728145012476](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145012476.png)
 주소창에 "http://localhost:8080/hello-string?name=spring!!!" 검색
-
-![image-20210728145033251](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145033251.png)
+![image-20210729110644784](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110644784.png)
 
 결과창
 
 
-![image-20210728145134031](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145134031.png)
-페이지 소스에도 html코드 하나 없이 데이터가 그대로 나옴.
+![image-20210729110725067](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110725067.png)
+페이지 소스에도 html코드 하나 없이 데이터가 그대로  나옴.
 
 
-![image-20210728145210742](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145210742.png)
+![image-20210729110820812](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110820812.png)
+
 주소창에 "http://localhost:8080/hello-api?name=spring!!!"  검색
 
-![image-20210728145307553](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145307553.png)
+![image-20210729110851743](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110851743.png)
 
 결과화면
 
@@ -244,6 +242,7 @@ public class HelloController {
 html은 태그를 열고 닫고 해야하는데 json은 { key  : value } 로 간단하다.
 
 그래서 요즘은 json방식을 많이 선호한다.
+--
 
 **@ResponseBody 를 사용원리**
 
@@ -277,7 +276,7 @@ html은 태그를 열고 닫고 해야하는데 json은 { key  : value } 로 �
 -   기능 :  회원등록, 조회
 -   아직 데이터 저장소가 선정되지 않음(가상의 시나리오)
 
-![image-20210728145508913](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145508913.png)
+![image-20210729110938670](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110938670.png)
 
 -   컨트롤러: 웹 MVC의 컨트롤러 역할
 -   서비스: 비즈니스 도메인을 가지고 핵심 비즈니스 로직 구현 (예: 회원은 중복가입이 안된다)
@@ -290,7 +289,7 @@ html은 태그를 열고 닫고 해야하는데 json은 { key  : value } 로 �
 
 **2) 회원 도메인과 리퍼지토리 만들기**
 
-![image-20210728145536096](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145536096.png)
+![image-20210729110956005](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729110956005.png)
 
 hello.hellospring에 domain이라는 package를 만들고 그 안에 Member클래스를 만든다.
 
@@ -328,7 +327,7 @@ public class Member {
 
 게터/세터 생성
 
-![image-20210728145604557](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145604557.png)
+![image-20210729111016619](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111016619.png)
 
 repository에 MemberRepository 인터페이스를 만든다.
 
@@ -423,7 +422,8 @@ long타입의 시퀀스도 만들어줌. 그냥 0,1,2...의 시퀀스를 생성�
 
 src/test/java 하위폴더에 repository 패키지 생성 후 MemoryMemberRepositoryTest.java 파일을 생성한다.
 
-![image-20210728145645258](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145645258.png)
+![image-20210729111038883](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111038883.png)
+
 ```
 package hello.hellospring.repository;
 
@@ -456,7 +456,7 @@ class MemoryMemberRepositoryTest { /*다른 애들을 갖다쓸게 아니기때�
 
 홈 컨트롤러 추가
 
-![image-20210728145847207](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145847207.png)
+![image-20210729111125651](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111125651.png)
 
 ```
 package hello.hellospring.controller;
@@ -477,7 +477,7 @@ public class HomeController {
 
 회원관리용 홈 html 추가
 
-![image-20210728145934535](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145934535.png)
+![image-20210729111153120](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111153120.png)
 
 ```
 <!DOCTYPE HTML>
@@ -498,7 +498,7 @@ public class HomeController {
 
 주소창에 localhost:8080 검색
 
-![image-20210728145958936](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728145958936.png)
+![image-20210729111211395](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111211395.png)
 
 결과화면
 
@@ -515,7 +515,7 @@ public class HomeController {
 
 회원등록 폼 컨트롤러
 
-![image-20210728150031592](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150031592.png)
+![image-20210729111234587](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111234587.png)
 
 ```
 package hello.hellospring.controller;
@@ -553,7 +553,7 @@ createForm()메서드에서 return할때 "members/createMemberForm"을 템플릿
 
 회원 등록 폼 HTML
 
-![image-20210728150050575](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150050575.png)
+![image-20210729111253784](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111253784.png)
 
 ```
 <!DOCTYPE HTML>
@@ -579,7 +579,7 @@ createForm()메서드에서 return할때 "members/createMemberForm"을 템플릿
 
 웹등록 화면에서 데이터를 전달 받을 폼 객체
 
-![image-20210728150116113](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150116113.png)
+![image-20210729111310635](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111310635.png)
 
 ```
 package hello.hellospring.controller;
@@ -631,7 +631,7 @@ memberService의 join을 통해 member 가입 완료.
 
 #### **3) 회원 웹 기능 - 조회 (회원 목록 동작)**
 
-![image-20210728150148902](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150148902.png)
+![image-20210729111334533](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111334533.png)
 
 회원목록을 누르면 members로 가게 해놓았기 때문에 "@GetMapping(value = "/members")"라고 써줌
 
@@ -654,7 +654,7 @@ findMembers()를 하면 모든 멤버를 조회할 수 있다.
 
 회원 리스트 HTML
 
-![image-20210728150209274](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150209274.png)
+![image-20210729111354172](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111354172.png)
 
 ```
 <!DOCTYPE HTML>
@@ -681,23 +681,23 @@ findMembers()를 하면 모든 멤버를 조회할 수 있다.
 </html>
 ```
 
-![image-20210728150231148](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150231148.png)
+![image-20210729111417336](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111417336.png)
 
-![image-20210728150249585](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150249585.png)
+![image-20210729111437900](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111437900.png)
 
-![image-20210728150316884](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150316884.png)
+![image-20210729111454765](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111454765.png)
 
 페이지 소스를 보면 내가 입력한 값이 2개 이기때문에 두가지가 랜더링 되어있지만 실제 코드에는 하나만 랜더링 되어있다.
 
 이건 템플릿 언어로 "${ }"는 모델안의 값을 꺼내는 것이다.
 
-![image-20210728150418105](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150418105.png)
+![image-20210729111516099](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111516099.png)
 
 컨트롤러에서 넘어갈때 model 안에 addAttribute로 "members"라는 키 안에 list로 모든 회원을 조회해서 members(값)을 담아놓았다.
 
 그러고 html로 와서
 
-![image-20210728150433729](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150433729.png)
+![image-20210729111535473](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111535473.png)
 
 첫번째 객체를 하나 꺼내서 member에 담는다.
 
@@ -727,7 +727,7 @@ findMembers()를 하면 모든 멤버를 조회할 수 있다.
 
 : 개발이나 테스트 용도로 가법교 편리한 DB, 웹 화면 제공
 
-![image-20210728150554874](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150554874.png)
+![image-20210729111611838](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111611838.png)
 
 파일 경로
 
@@ -744,7 +744,7 @@ JDBC URL
 
 테이블 생성하기
 
-![image-20210728150640433](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150640433.png)
+![image-20210729111628989](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111628989.png)
 
 \- bigint(db) = long(java)
 
@@ -767,12 +767,12 @@ build.gradel에 jdbc,h2관련 드라이버를 추가해준다.
 
 application.properties에 경로 지정해줌.
 
-![image-20210728150724447](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150724447.png)
+![image-20210729111702803](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111702803.png)
 
 h2접속 할때 썼던 url을 입력해줌.
 
-![image-20210728150744801](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150744801.png)
-![image-20210728150802016](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150802016.png)
+![image-20210729111723980](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111723980.png)
+
 
 build.gradle에 가서 코끼리 눌러주면 이거 뜸.
 
@@ -784,7 +784,7 @@ build.gradle에 가서 코끼리 눌러주면 이거 뜸.
 
 ---
 
-![image-20210728150855365](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150855365.png)
+![image-20210729111914027](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111914027.png)
 
 repository에 JdbcMemberRepository 클래스를 만들어주고 MemberRepository를 임플리먼츠 해준다.
 
@@ -998,13 +998,13 @@ DataSource는 데이터베이스 커넥션을 획득할 때 사용하는 �
 
 바로 실행하면 안됨.
 
-![image-20210728150929227](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150929227.png)
+![image-20210729111956579](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729111956579.png)
 
 우리는 지금까지 MemoryMemberRepository를 사용하고 있었다.
 
 그렇기 때문에 SpringConfig로 가서 JdbcMemberRepository의 스프링빈으로 등록해준다.
 
-![image-20210728150951586](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728150951586.png)
+![image-20210729112020425](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112020425.png)
 
 우리가 원래 사용했던 MemoryMemberRepository는 주석을 걸어놓고
 
@@ -1014,7 +1014,7 @@ DB와 연결하려면 DataSource가 필요하기 때문에 스프링에게 제�
 
 데이터베이스와 연결해주는 소스를 만들어주고 생성자를 만들어서 @Autowired걸어 DI해준다.
 
-![image-20210728151008361](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151008361.png)
+![image-20210729112042381](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112042381.png)
 
 이렇게 스프링에게 제공받을 수 있다.
 
@@ -1059,23 +1059,27 @@ public class SpringConfig {
 
 다른 소스는 손보지 않고 SpringConfig만 수정하여 디비와 연결할 수 있다.
 
-![image-20210728151036628](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151036628.png)
+![image-20210729112101706](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112101706.png)
 
 현재 DB 목록
+
 
 ![image-20210728151051984](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151051984.png)
 
 목록 버튼 눌렀을 때
 
-![image-20210728151105495](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151105495.png)
+
+![image-20210729112128181](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112128181.png)
 
 새로 가입해봄
 
-![image-20210728151120892](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151120892.png)
+
+![image-20210729112146731](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112146731.png)
 
 회원목록
 
-![image-20210728151135947](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151135947.png)
+
+![image-20210729112204643](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112204643.png)
 
 DB 업데이트!!
 
@@ -1097,13 +1101,13 @@ DB 업데이트!!
 
 클래스구현이미지
 
-![image-20210728151218510](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151218510.png)
+![image-20210729112230513](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112230513.png)
 
 멤버서비스는 멤버리포지토리에 의지하고있고
 
 멤버리포지토리는 메모리와 JDBC리포지토리를 가지고 있다.
 
-![image-20210728151238001](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151238001.png)
+![image-20210729112247616](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112247616.png)
 
 스프링설정을 하면서 메모리와의 연결은 끊어버리고 JDBC와만 연결할 수 있다.
 
@@ -1121,33 +1125,33 @@ DB 업데이트!!
 
 MemberServiceTest를 DB까지 연결된 테스트로 만들어보자
 
-![image-20210728151327730](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151327730.png)
+![image-20210729112313732](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112313732.png)
 
 MemberServiceTest를 복사하여 MemberServiceIntegrationTest라는 이름으로 테스트 클래스를 생성한다.
 
-![image-20210728151343066](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151343066.png)
+![image-20210729112330714](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112330714.png)
 
 스프링을 테스트할 땐 클래스이름 위에 @SpringBootTest라고 어노테이션을 걸어준다.
 
-![image-20210728151357268](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151357268.png)
+![image-20210729112357296](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112357296.png)
 
 비포 에프터 메서드 삭제.
 
-![image-20210728151419799](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151419799.png)
+![image-20210729112448613](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112448613.png)
 
 먼저 회원가입만 테스트를 해봄
 
-![image-20210728151435622](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151435622.png)
+![image-20210729112512357](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112512357.png)
 
 테스트 OK
 
-![image-20210728151448137](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151448137.png)
+![image-20210729112545521](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112545521.png)
 
 DB에도 잘 들어왔다.
 
 이제 다시 한번 회원가입을 해보겠다.
 
-![image-20210728151504564](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151504564.png)
+![image-20210729112604781](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112604781.png)
 
 이미 hello라는 회원이 존재하는데 똑같이 가입을 하니까 중복 에러가 남.
 
@@ -1165,11 +1169,11 @@ DB에도 잘 들어왔다.
 
 그래서 같은 테스트를 여러번 실행할 수 있다.
 
-![image-20210728151520333](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151520333.png)
+![image-20210729112633429](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112633429.png)
 
 트렌젝셔널 걸어줌
 
-![image-20210728151536155](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151536155.png)
+![image-20210729112652673](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112652673.png)
 
 계속해서 테스트를 진행할 수 있다.
 
@@ -1179,7 +1183,7 @@ DB에도 잘 들어왔다.
 
 -   순수 Jdbc와 동일한 환경설정을 하면 된다.
 
-![image-20210728151705721](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151705721.png)
+![image-20210729112737913](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112737913.png)
 
 -   스프링 JdbcTemplate과 MyBatis 같은 라이브러리는 **JDBC API**에서 본  
     **반복 코드를 대부분** **제거해준다.   
@@ -1187,7 +1191,7 @@ DB에도 잘 들어왔다.
 
 JdbcTemplateMemberRepository.java 생성
 
-![image-20210728151834803](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151834803.png)
+![image-20210729112809901](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112809901.png)
 
 MemberRepository implements해주고
 
@@ -1199,23 +1203,24 @@ JdbcTemplate는 인젝션을 받을 수 있는 게 아니라서
 
 참고로 **생성자가 하나** 일때는 @Autowired를 생략해도 된다.
 
-![image-20210728151907377](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151907377.png)
+![image-20210729112829888](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112829888.png)
 
-![image-20210728151930387](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151930387.png)
+![image-20210729112851254](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112851254.png)
 
-![image-20210728151944504](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728151944504.png)
+![image-20210729112912564](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112912564.png)
 
 Alt+Enter (mac: Option+Enter)  -> replace with Ramda
 
-![image-20210728152009007](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152009007.png)
 
-![image-20210728152124684](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152124684.png)
+![image-20210729112934894](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729112934894.png)
+
+![image-20210729113000927](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113000927.png)
 
 아래의 rowMapper를 여기에 넣어주고
 
 ctrl + Alt + V
 
-![image-20210728152150923](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152150923.png)
+![image-20210729113028481](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113028481.png)
 
 result가 list로 나옴
 
@@ -1273,7 +1278,7 @@ JDBC와 비교하였을 때 어마무지하게 긴 소스의 양을 단 세줄�
 
 ---
 
-![image-20210728152218348](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152218348.png)
+![image-20210729113050080](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113050080.png)
 
 SimpleJdbcInsert는 그냥 tablename과 keycolumn만 넣으면 쿼리를 짤 필요가 없다.
 
@@ -1281,19 +1286,19 @@ SimpleJdbcInsert는 그냥 tablename과 keycolumn만 넣으면 쿼리를 짤 필
 
 ex) insert into 테이블명 where 컬럼명=?
 
-![image-20210728152336159](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152336159.png)
+![image-20210729113111065](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113111065.png)
 
-![image-20210728152422657](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152422657.png)
+![image-20210729113136044](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113136044.png)
 
 findAll은 list로 반환해 준 rs 결과를 memer객체로 맵핑을 한 다음에 return으로 돌려준다.
 
-![image-20210728152456272](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152456272.png)
+![image-20210729113159560](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113159560.png)
 
 다 됐으면 SpringConfig에서
 
 JdbcTemplateMemberRepository를 스프링빈으로 등록
 
-![image-20210728152529204](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152529204.png)
+![image-20210729113223287](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113223287.png)
 
 test돌려보기!
 
@@ -1313,7 +1318,7 @@ test코드를 잘 짜는 것이 중요하다.
 
 **build.gradle 파일에 JPA, h2 데이터베이스 관련 라이브러리 추가**
 
-![image-20210728152618415](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152618415.png)
+![image-20210729113257407](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113257407.png)
 
 jpa를 사용하려면 build.gradle에서 data-jpa를 추가해야한다.
 
@@ -1325,7 +1330,7 @@ jpa를 사용하려면 build.gradle에서 data-jpa를 추가해야한다.
 
 **스프링 부트에 JPA 설정 추가**
 
-![image-20210728152700109](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152700109.png)
+![image-20210729113321539](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113321539.png)
 
 spring.jpa.show-sql=true       //jpa가 날리는 sql을 볼 수 있다.  
 spring.jpa.hibernate.ddl-auto=none      //jpa를 사용하면 객체를 보고 얘가 알아서 테이블도 만든다. 근데 우린 테이블이 만들어져있고 그걸 사용할 거기 때문에 생성 기능을 끄고 시작하겠다.
@@ -1334,11 +1339,11 @@ spring.jpa.hibernate.ddl-auto=none      //jpa를 사용하면 객체를 보�
 
 라이브러리가 다 받아졌다면
 
-![image-20210728152722827](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152722827.png)
-
+![image-20210729113342685](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113342685.png)
 에 jpa와 hibernate가 모두 들어와 있어야 한다.
 
-![image-20210728152740175](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152740175.png)
+![image-20210729113400508](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113400508.png)
+
 
 jpa는 인터페이스만 제공되는 것.
 
@@ -1356,13 +1361,13 @@ Mapping
 
 **JPA 엔티티 매핑**
 
-![image-20210728152758441](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152758441.png)
+![image-20210729113431606](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113431606.png)
 
 jpa를 사용하기 위해 클래스명 위에 @Entity를 걸어준다.
 
 그리고 pk를 맵핑시켜주어야 하는데
 
-![image-20210728152814224](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152814224.png)
+![image-20210729113450175](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113450175.png)
 
 우리가 디비에서 name값을 넣었을 때 id값이 저절로 생성된다.
 
@@ -1465,10 +1470,8 @@ public class JpaMemberRepository implements MemberRepository {
 
 \- 저장 : em.persist()\- id 조회 : em.find(조회할 타입, 식별자pk값)   ------   id는 pk(primary key)라서\- name 조회 : em.createQuery()   ------   jpql이라는 객체지향 쿼리문을 써야한다.
 
-![image-20210728152845289](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152845289.png)
-![image-20210728152908860](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152908860.png)
-
-![image-20210728152933750](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728152933750.png)
+![image-20210729113525109](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113525109.png)
+![image-20210729113548220](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113548220.png) 
 \-> inline..
 
 inline을 쓰는 이유? 함수의 호출 과정을 거치지 않고, 함수의 모든 코드를 호출된 자리에 바로 삽입하는 방식의 함수입니다.
@@ -1498,14 +1501,13 @@ public class MemberService {}
 -   JPA를 통한 모든 데이터 변경은 트랜잭션 안에서 실행해야 한다.
 
 **JPA를 사용하도록 스프링 설정 변경**
+![image-20210729113638032](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113705068.png)
 
-![image-20210728153006478](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153006478.png)
-
-![image-20210728153019429](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153019429.png)
+![image-20210729113730383](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113730383.png)
 
 Test 성공!
 
-![image-20210728153033081](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153033081.png)
+![image-20210729113746276](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113746276.png)
 
 application.properties에서 spring.jpa.show-sql\=true를 추가해줬잖아.
 
@@ -1571,12 +1573,11 @@ JpaRepository 인터페이스를 받는다.
 
 **HOW?**
 
-![image-20210728153107602](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153107602.png)
+![image-20210729113810656](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113810656.png)
 
 JpaRepository와 CrudRepository에 가보면
 
-![image-20210728153136617](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153136617.png)
-
+![image-20210729113842822](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113842822.png)
 이런식으로 기본적인 crud와  단순 조회메소드를 쭉 제공해준다.
 
 그래서 그런건 그냥 가져다 쓰면 된다.
@@ -1591,7 +1592,7 @@ JpaRepository와 CrudRepository에 가보면
 
 그래서 스프링데이터JPA에 등록을 해주면
 
-![image-20210728153150660](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153150660.png)
+![image-20210729113904398](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113904398.png)
 
 이런식으로 알아서 jpql을 짠다.
 
@@ -1614,8 +1615,7 @@ JpaRepository와 CrudRepository에 가보면
 
 **MemberService 회원 조회 시간 측정 추가**
 
-![image-20210728153306215](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153306215.png)
-![image-20210728153318797](C:\Users\heeseon\AppData\Roaming\Typora\typora-user-images\image-20210728153318797.png)
+![image-20210729113944304](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210729113944304.png)
 
 원래는 이렇게 하나하나 다 추가해서 시간조회를 해주어야 한다.
 
@@ -1634,6 +1634,5 @@ JpaRepository와 CrudRepository에 가보면
 #### **AOP적용 (AOP: Aspect Oriented Programming)**
 
 : 공통관심사항과 핵심관심사항을 분리하는 것!
-![image-20210728160437612](https://raw.githubusercontent.com/heeseonyang/hello-spring/master/img/image-20210728160437612.png)
 mage/timeTraceAop에 모아놓고 필요할때마다 쓴다.
 
